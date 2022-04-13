@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16105" started-at="2022-04-01T16:09:45 IST" finished-at="2022-04-01T16:10:01 IST">
+  <suite name="Suite" duration-ms="18637" started-at="2022-04-12T14:41:13 IST" finished-at="2022-04-12T14:41:32 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16105" started-at="2022-04-01T16:09:45 IST" finished-at="2022-04-01T16:10:01 IST">
-      <class name="com.jbk.trytest">
-        <test-method status="PASS" signature="classistest()[pri:0, instance:com.jbk.trytest@536aaa8d]" name="classistest" duration-ms="16045" started-at="2022-04-01T16:09:45 IST" finished-at="2022-04-01T16:10:01 IST">
+    <test name="Test" duration-ms="18637" started-at="2022-04-12T14:41:13 IST" finished-at="2022-04-12T14:41:32 IST">
+      <class name="com.jbk.UserTest">
+        <test-method status="PASS" signature="test05()[pri:0, instance:com.jbk.UserTest@646d64ab]" name="test05" duration-ms="11" started-at="2022-04-12T14:41:13 IST" finished-at="2022-04-12T14:41:13 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- classistest -->
-      </class> <!-- com.jbk.trytest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test05 -->
+      </class> <!-- com.jbk.UserTest -->
+      <class name="com.jbk.Dashboard">
+        <test-method status="PASS" signature="test03()[pri:0, instance:com.jbk.Dashboard@458c1321]" name="test03" duration-ms="2" started-at="2022-04-12T14:41:13 IST" finished-at="2022-04-12T14:41:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+        <test-method status="PASS" signature="test04()[pri:0, instance:com.jbk.Dashboard@458c1321]" name="test04" duration-ms="1" started-at="2022-04-12T14:41:13 IST" finished-at="2022-04-12T14:41:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04 -->
+      </class> <!-- com.jbk.Dashboard -->
+      <class name="com.jbk.DemoTest">
+        <test-method status="PASS" signature="classtest()[pri:0, instance:com.jbk.DemoTest@34cd072c]" name="classtest" duration-ms="18552" started-at="2022-04-12T14:41:13 IST" finished-at="2022-04-12T14:41:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classtest -->
+      </class> <!-- com.jbk.DemoTest -->
+      <class name="com.jbk.LoginTest">
+        <test-method status="PASS" signature="test01()[pri:0, instance:com.jbk.LoginTest@11438d26]" name="test01" duration-ms="2" started-at="2022-04-12T14:41:13 IST" finished-at="2022-04-12T14:41:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="test02()[pri:0, instance:com.jbk.LoginTest@11438d26]" name="test02" duration-ms="2" started-at="2022-04-12T14:41:13 IST" finished-at="2022-04-12T14:41:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+      </class> <!-- com.jbk.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
